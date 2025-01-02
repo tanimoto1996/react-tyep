@@ -60,3 +60,22 @@ git config user.email yumenikki2@gmail.com
 git remote add origin https://github.com/tanimoto1996/react-tyep.git
 git push origin HEAD
 ```
+
+---
+
+## **Reactプロジェクトの作成**
+
+### **Viteを使用してReactプロジェクトを作成**
+以下の手順でReact + TypeScriptプロジェクトを作成します：
+
+```bash
+npm create vite@latest like-button -- --template react-swc-ts
+cd like-button/
+npm install
+npm run dev
+```
+
+### **Reactのインストール済みバージョン確認**
+```bash
+npm list react
+```
