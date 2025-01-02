@@ -79,3 +79,9 @@ npm run dev
 ```bash
 npm list react
 ```
+
+
+nextプロジェクト作成
+
+npm install -g yarn
+yarn create next-app --example with-typescript random-cat
