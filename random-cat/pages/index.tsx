@@ -20,7 +20,7 @@ const IndexPage: NextPage = () => {
     }
 
     return <div>
-                <button onClick={ handleClick }>他の猫も見る</button>
+                <button onClick={ handleClick }>他の猫も見る!!</button>
                 <div>{ loding ? <h1>loding now...</h1> : <img src={imageUrl} /> }</div>
             </div>
 
